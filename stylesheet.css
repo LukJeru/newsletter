@@ -1,0 +1,27 @@
+body{
+  font-size: 16px;
+  background-color: var(--background_color);
+}
+
+.container{
+  background-color: var(--white);
+}
+
+.button{
+  background-color: var(--button-color);
+  color: var(--white)
+}
+
+.button:hover{
+  background-color: var(--hover_color);
+}
+
+
+/*colors*/
+:root {
+  --button-color: hsl(234, 29%, 20%);
+  --background_color: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+  --hover_color: hsl(4, 100%, 67%);
+}
