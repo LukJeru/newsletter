@@ -3,15 +3,46 @@ body{
   background-color: var(--background_color);
   font-family: "Roboto";
   font-weight: 400;
+  width: 100%;
 }
 
-.container{
+.main{
+  margin: 5rem auto;
+  display:flex;
+  border: none;
+  width: 60%;
+  border-radius: 3rem;
   background-color: var(--white);
+  height: 34rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.left_text {
+  display: flex;
+  flex-direction: column;
 }
 
 .button{
   background-color: var(--button-color);
   color: var(--white)
+}
+
+.check{
+  height: 3rem;
+  width: 3rem;
+}
+
+.successMessage {
+  margin: 5rem auto;
+  display:flex;
+  flex-direction: column;
+  border: none;
+  width: 30%;
+  height: 25rem;
+  border-radius: 3rem;
+  background-color: var(--white);
+  padding: 1rem;
 }
 
 .button:hover{
