@@ -1,6 +1,8 @@
 body{
   font-size: 16px;
   background-color: var(--background_color);
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .container{
@@ -14,6 +16,14 @@ body{
 
 .button:hover{
   background-color: var(--hover_color);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+#emailForm, .button {
+  font-weight: 700;
 }
 
 
